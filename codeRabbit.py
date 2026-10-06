@@ -2,7 +2,8 @@
 
 def convert_fahrenheit_to_celsius(fahrenheit):
     # Logic Error 1: Incorrect math formula order of operations
-    celsius = fahrenheit - 32 * 5 / 9
+    celsius = (fahrenheit - 32) * 5 / 9
+
     return celsius
 
 def check_weather_alert(celsius_temp):
